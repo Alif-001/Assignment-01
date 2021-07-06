@@ -2,8 +2,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  height: 500vh;
 }
-.head {
+.flex {
   display: flex;
   margin-top: 100px;
 }
@@ -37,4 +38,19 @@ p {
   border-radius: 30px;
 
   background-image: linear-gradient(356deg, gold, orange);
+}
+.person {
+  height: 350px;
+  position: relative;
+  left: 230px;
+  top: 7px;
+}
+.about {
+  margin: 0;
+}
+#about-me {
+  background-image: url("images/7.png");
+}
+.about p {
+  margin-top: 10px;
 }
