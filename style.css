@@ -82,7 +82,7 @@ h2 {
   /* left: 7%; */
 }
 .food-card h2,
-p {
+.food-card p {
   margin: 5px;
   padding: 10px;
 }
@@ -92,4 +92,22 @@ p {
   width: 304px;
   height: 210px;
   margin-left: 23px;
+}
+.sub-count {
+  margin: 20px;
+  width: 50%;
+  text-align: center;
+}
+.sub-count h2 {
+  font-weight: bold;
+}
+.sub-count h2,
+.sub-count p {
+  margin: 10px;
+}
+.sub-bar {
+  box-shadow: 0 0 40px gray;
+  border-radius: 15px;
+  width: 94%;
+  margin-left: 3%;
 }
