@@ -3,9 +3,40 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+#navbar a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+#logo {
+  font-size: 35px;
+  padding-top: 40px;
+  padding-left: 35px;
+  color: rgb(61, 61, 61);
+}
+#navbar {
+  background-image: linear-gradient(gold, red);
+}
+#menu {
+  list-style: none;
+  display: flex;
+  margin-left: 50%;
+  height: 100px;
+}
+#menu li {
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  height: 10px;
+  margin-top: 25px;
+}
+
 .flex {
   display: flex;
   margin-top: 100px;
+}
+.nav {
+  margin-top: 0;
 }
 .model {
   width: 69%;
