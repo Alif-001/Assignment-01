@@ -5,16 +5,16 @@ body {
 }
 #navbar a {
   text-decoration: none;
-  color: rgb(49, 49, 49);
+  color: gray;
 }
 #logo {
   font-size: 35px;
   padding-top: 20px;
   padding-left: 35px;
-  color: rgb(61, 61, 61);
+  color: rgb(100, 97, 97);
 }
 #navbar {
-  background-image: linear-gradient(gold, red);
+  background-image: linear-gradient(350deg, gold, red);
 }
 #menu {
   list-style: none;
@@ -71,7 +71,7 @@ p {
   border-radius: 30px;
   color: white;
 
-  background-image: linear-gradient(66deg, gold, red);
+  background-image: linear-gradient(306deg, gold, red);
 }
 .person {
   height: 350px;
